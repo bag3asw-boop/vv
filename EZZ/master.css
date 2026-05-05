@@ -162,3 +162,13 @@ ul .all .third img {
   color: #d99544;
   font-size: 10px;
 }
+
+.container ul:hover {
+  transform: translateY(-6px);
+  border-color: #d99544;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.logo img,.endimg {
+  filter: brightness(0) invert(1);
+}
