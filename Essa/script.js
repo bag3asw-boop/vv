@@ -113,7 +113,7 @@ function handleSignIn() {
         }
 
         localStorage.setItem("currentUser", matchedUser.email);
-        showPopup(`Welcome back, ${matchedUser.name}.`, "index.html");
+        showPopup(`Welcome back, ${matchedUser.name}.`, "../index.html");
     });
 }
 
